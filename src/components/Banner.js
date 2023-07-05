@@ -12,7 +12,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Full-Stack Blockchain Developer", " DEFI Developer", "Solidity Developer", "Rust Developer", "Smart Contract Security Auditor" ];
+  const toRotate = [ "Artficial Intelligence", " Blockchain", "Cyber Security" ];
   const period = 2000;
 
   useEffect(() => {
@@ -56,9 +56,9 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Dami. `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full-Stack Blockchain Developer", " DEFI Developer", "Solidity Developer", "Rust Developer", "Smart Contract Security Auditor"  ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I am a Full-Stack Blockchain Developer with extensive experience in Smart Contract development and deployment on Ethereum Virtual Machine Compatible Blockchains with Solidity and the Solana Blockchain with Rust, Front-End development with React, ReactNative and NextJs, Back-End development with NodeJs, Python, Rust, GraphQL, IPFS, etc. I also have a Proven understanding of the use of Blockchain Technology in the development and execution of Secure, Trustless User-facing Decentralized applications.</p>
+                <span className="tagline">Welcome to Aestrum Labs</span>
+                <h1>{`We are builders in `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Artficial Intelligence", " Blockchain", "Cyber Security" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>Welcome to Aestrum Labs, your gateway to cutting-edge technology products at the intersection of Artificial Intelligence, Blockchain, and Cyber Security. We are a forward-thinking company dedicated to crafting innovative solutions that shape the future of these rapidly evolving fields.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>

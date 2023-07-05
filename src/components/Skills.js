@@ -35,28 +35,20 @@ export const Skills = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h2>Skills</h2>
-                        <p>My Technical Skills include Solidity, Rust,  Python, Javascript, React,  React Native, NodeJs.<br></br> I have a Professional understanding of on-chain and off-chain tools such as Hardhat, Moralis, Chainlink, Web3js, Ethersjs, IPFS, Alchemy, and GraphQL.</p>
+                        <h2>Expertise</h2>
+                        <p>At Aestrum Labs, we understand that the convergence of AI, Blockchain, and Cyber Security holds immense potential for transformative advancements. <br></br>Our team of expert engineers and visionaries work tirelessly to harness this potential, developing groundbreaking products that push the boundaries of what is possible.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>Solidity</h5>
+                                <h5>Artficial Intelligence</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>Rust</h5>
+                                <h5>Blockchain Technology</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
-                                <h5>Javascript</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>ReactJs</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Web3Js</h5>
+                                <h5>Cyber Security</h5>
                             </div>
                         </Carousel>
                     </div>

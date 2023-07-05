@@ -61,23 +61,23 @@ export const Projects = (link) => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <h2>Projects</h2>
-                <p>Listed below are links (including codebases) to various Successfully launched  Full-Stack Decentralized Applications on the Ethereum blockchain, the Solana Blockchain, and other Blockchains.</p>
+                <h2>Products</h2>
+                <p>Listed below are links to various Successfully launched Products in Artficial Intelligence, Blockchain and Cyber Security.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Ethereum</Nav.Link>
+                      <Nav.Link eventKey="first">Blockchain</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Solana</Nav.Link>
+                      <Nav.Link eventKey="second">Artficial Intelligence</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Other Chains</Nav.Link>
+                      <Nav.Link eventKey="third">Cyber Security</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : "pe-auto"} >
                     <Tab.Pane eventKey="first">
-                      <p>Ethereum Blockchain</p>
+                      <p>Blockchain</p>
                       <Row>
                         {
                           projectEth.map((project, index, link) => {
@@ -93,7 +93,7 @@ export const Projects = (link) => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <p>Solana Blockchain</p>
+                      <p>Artficial Intelligence</p>
                       <Row>
                         {
                           projectSol.map((project, index, link) => {
@@ -109,7 +109,7 @@ export const Projects = (link) => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p> Other Blockchains </p>
+                      <p> Cyber Security </p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
